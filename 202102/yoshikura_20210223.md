@@ -41,6 +41,12 @@ footer: 'footer text'
 # 何が嬉しいかというと
 - Markdownでドキュメントを書くので、親和性が高い。
 - 画像も埋め込めるよ
+![リンクテキスト](images/memo.png)
+
+--- 
+
+# さらに嬉しいこと
+
 - 拡張機能が豊富
     - プログラムの実行もできる
     - VS Codeがあれば十分開発できる言語もいくつか(node.jsとか)
@@ -58,8 +64,30 @@ footer: 'footer text'
 
 ---
 
-# 
-となると、開発者向けなの？と思うところですが、
+# VSCodeって開発者向けなの？
+- 文章書くなら開発者でなくとも使うと便利
+- Markdownはいいぞ
+- `コードもかけるし`、**太字**　もできる。_斜体も_、~~打ち消しも~~
+- 箇条書きも
+    - こんな風に
+        - 階層が作れるよ
+> 引用もOK
+
+---
+
+表も書けるよ！
+
+| Left align | Right align | Center align |
+|:-----------|------------:|:------------:|
+| This       | This        | This         |
+| column     | column      | column       |
+| will       | will        | will         |
+| be         | be          | be           |
+| left       | right       | center       |
+| aligned    | aligned     | aligned      |
+
+
+---
 
 # draw.io
 
