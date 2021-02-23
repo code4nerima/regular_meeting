@@ -1,7 +1,7 @@
 ---
 marp: true
-header: 'header text'
-footer: 'footer text'
+header: 'Code for Nerima'
+footer: '2021年2月の定例ミーティング'
 ---
 <!-- $theme: gaia -->
 <!-- $size: 16:9 -->
@@ -50,7 +50,7 @@ footer: 'footer text'
 - 拡張機能が豊富
     - プログラムの実行もできる
     - VS Codeがあれば十分開発できる言語もいくつか(node.jsとか)
-    - このプレゼンもVS Code使ってます
+    - このプレゼンもVS Code使ってます(marpという拡張)
 
 ---
 
@@ -90,8 +90,18 @@ footer: 'footer text'
 ---
 
 # draw.io
+- 作図ツールです
+- 無料で使えます
+- インストールしてなくても、Web上でも動かせます
+- Visioと遜色なし（の気がする）
 
-draw.io
+---
 
-VS Code
-Visual Studio Code
+# 動かしてみましょう
+- Excelやパワポのお絵かきよりやりやすい
+- pdf、svg,pngなど、いろんな形式で出力可能
+- 出力したものをmarkdownで画像埋め込みとか。
+
+---
+
+# おしまい
