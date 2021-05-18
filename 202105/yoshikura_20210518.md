@@ -52,7 +52,7 @@ footer: '2021年5月の定例ミーティング'
 
 # Excelは？
 - バイナリです。メモ帳で開くとこうなります。
-![height:400px](.\images\memo.png)
+![height:400px](./images/memo.png)
 
 
 
@@ -62,7 +62,9 @@ footer: '2021年5月の定例ミーティング'
     - そのソフトが入っていない環境だと何もできない
         - Excelの手順書を持って行ったけど、サーバにはExcelなんか入ってないので困ったこともありましたね。
 
-
+- PDFもバイナリです。
+- 画像もバイナリです。
+- バイナリはオープンデータには向かない
 
 # テキストをデータとして扱う場合
 機械判読可能なデータであること。
@@ -75,16 +77,33 @@ footer: '2021年5月の定例ミーティング'
 # TXT(固定長データ)
 桁数で区切って意味を持たせる。例えば、全銀協フォーマットのデータ。(総合振込)
 
-![height:300px](.\images\fixed_format.png)
+![height:300px](./images/fixed_format.png)
 
 - 1桁目がデータ区分
 - データ区分が1の時はヘッダレコードとして、2桁目から2桁が種別コード(21は総合振込)…
 
-# CSV
+# CSV/TSV
 - `Comma Separated Values`の略
-- 
+- カンマで項目を区切る
+- 区切り文字がタブだとTSV
+    - `Tab Separated Values`
 
+# CSVはExcelで読める?
+- 読めます。
+- が、要らぬお世話を焼いてくれます。
+- 編集して保存したら痛い目見ます。
 
-# おしまい
+# XML
+- `Extensible Markup Language` の略
+- こんなやつ
+    - https://ja.wikipedia.org/wiki/Extensible_Markup_Language
 
-ちょっと修正。
+- 最近、みる頻度が下がってきた気がする
+
+# JSON
+- `JavaScript Object Notation`の略
+- 最近の主流
+    - https://ja.wikipedia.org/wiki/JavaScript_Object_Notation
+- 軽いのでよい。
+
+# おしまい。
